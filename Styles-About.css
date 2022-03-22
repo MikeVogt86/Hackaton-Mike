@@ -112,69 +112,21 @@ body {
   margin-left: 100px;
   margin-bottom: 100px;
   padding: 10px;
-  box-sizing: border-box;
 }
 
-.Text1 {
-  position: relative;
-  top: 310px;
-  left: 250px;
-}
-
-.Text2 {
-  position: relative;
-  top: 275px;
-  left: 1220px;
-}
-
-.Text3 {
-  position: relative;
-  top: 770px;
-  left: 1360px;
-}
-
-.Text4 {
-  position: relative;
-  top: 735px;
-  left: 365px;
-}
-
-.Border-text1 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  color: white;
-  font-size: 30px;
-}
-
-.Border-text2 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  color: white;
-  font-size: 30px;
-}
-
-.Border-text3 {
-  font-family: "Times New Roman", Times, serif;
-  color: white;
-  font-size: 30px;
-}
-
-.Border-text4 {
-  font-family: "Times New Roman", Times, serif;
-  color: white;
-  font-size: 30px;
-}
-
-.grid-container div {
-  border: 4px solid black;
-  border-radius: 10px;
-}
 iframe {
+  border: 4px solid black;
+  border-radius: 5px;
   height: 394px;
   width: 700px;
 }
 
 .Box-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: midnightblue;
+  font-weight: bolder;
+  text-align: center;
   margin-top: 100px;
   height: 394px;
   width: 700px;
@@ -183,6 +135,12 @@ iframe {
 }
 
 .Box-2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: midnightblue;
+  font-weight: bolder;
+  text-align: center;
+  margin-right: 8px;
   margin-top: 100px;
   height: 394px;
   width: 700px;
@@ -193,9 +151,9 @@ iframe {
 .Box-3 {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: white;
+  color: midnightblue;
   font-weight: bolder;
-  text-align: left;
+  text-align: center;
   grid-column: 1/2;
   grid-row: 2/2;
   height: 200px;
@@ -203,13 +161,24 @@ iframe {
   margin-left: 100px;
 }
 
+.Box-3 > p {
+  border: 4px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+.Box-4 > p {
+  border: 4px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
 .Box-4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: white;
+  color: midnightblue;
   font-weight: bolder;
-  text-align: left;
-  text-align: start;
+  text-align: center;
   grid-column: 3/4;
   grid-row: 3/2;
   height: 200px;
@@ -218,15 +187,16 @@ iframe {
 }
 
 footer {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: flex-end;
   background-color: black;
   width: 100%;
   height: 250px;
 }
 
-.co1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+h5 {
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
