@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: midnightblue;
+}
+
+.logo-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 70px;
+}
+
+.logo-subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 40px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+  list-style: none;
+}
+.home {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.home:hover {
+  color: grey;
+}
+
+.about {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.about:hover {
+  color: grey;
+}
+
+.contact {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.contact:hover {
+  color: grey;
+}
+
+.achtergrond-co1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.achtergrond {
+  width: 90%;
+  height: 800px;
+  padding-top: 100px;
+}
+
+.afbeelding-co2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.afbeelding {
+  margin-top: 150px;
+  width: 30%;
+  height: 600px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 15px;
+}
+
+.text-2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.para {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.para-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  text-align: start;
+  margin-top: 10px;
+  width: 800px;
+  margin-bottom: 100px;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 15px;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.fish-1 {
+  background-image: url(Foto/Anomalochromis\ Thomasi.jpg);
+}
+
+.fish-2 {
+  background-image: url(Foto/ramirezi.jpg);
+}
+
+.fish-3 {
+  background-image: url(Foto/Apistogramma\ Cacatuoides.webp);
+}
+
+.fish-4 {
+  background-image: url(Foto/Opal-Borelli-Dwarf-Cichlid.webp);
+}
+.links-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.card h2 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: midnightblue;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.card a {
+  background-color: midnightblue;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.card:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 250px;
+}
+
+.fb1 {
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.go1 {
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.yo1 {
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: maroon;
+  }
+
+  .card a {
+    background-color: maroon;
+  }
+
+  .achtergrond {
+    width: 90%;
+    height: 400px;
+  }
+
+  .afbeelding {
+    width: 90%;
+    height: 400px;
+  }
+
+  .home:hover {
+    color: olive;
+  }
+
+  .about:hover {
+    color: olive;
+  }
+
+  .contact:hover {
+    color: olive;
+  }
+
+  .card:hover {
+    background-color: olive;
+  }
+}
