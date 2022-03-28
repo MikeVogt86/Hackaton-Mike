@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: midnightblue;
+}
+
+.Logo-Head {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Logo {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 70px;
+}
+
+.Logo-subtitle {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 40px;
+}
+
+.List-Items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+  list-style: none;
+}
+.Home {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.Home:hover {
+  color: grey;
+}
+
+.About {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.About:hover {
+  color: grey;
+}
+
+.Contact {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.Contact:hover {
+  color: grey;
+}
+
+.achtergrond-co {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.achtergrond {
+  width: 90%;
+  height: 800px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+form {
+  text-align: left;
+}
+
+.form {
+  width: 20%;
+  border: none;
+  outline: none;
+  border-bottom: 4px dashed maroon;
+  background: transparent;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.btn {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  border: 3px solid maroon;
+  border-radius: 10px;
+  color: midnightblue;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 14px 28px;
+  margin-right: 20px;
+}
+
+input {
+  height: 25px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  width: 100%;
+  height: 250px;
+}
+
+h5 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: maroon;
+  }
+  .form {
+    border-bottom: 4px dashed coral;
+  }
+
+  .btn {
+    border: 3px solid coral;
+    margin-right: 10px;
+  }
+
+  label {
+    color: black;
+  }
+
+  .achtergrond {
+    width: 90%;
+    height: 400px;
+  }
+
+  .Home:hover {
+    color: coral;
+  }
+
+  .About:hover {
+    color: coral;
+  }
+
+  .Contact:hover {
+    color: coral;
+  }
+}
